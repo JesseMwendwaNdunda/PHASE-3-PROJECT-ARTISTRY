@@ -10,3 +10,7 @@ Base = declarative_base()
 
 def get_session():
     return SessionLocal()
+
+from models import Artwork
+
+Base.metadata.create_all(engine)
