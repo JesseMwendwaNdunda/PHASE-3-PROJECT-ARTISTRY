@@ -9,9 +9,21 @@ A simple art gallery management system built with Python, SQLAlchemy, and a ligh
 - Manage Artworks
 - CLI menus for CRUD operations
 
-## Setup
+## Setup and Installation
+1. Clone this repository
+
+git clone <repo-url>
+cd phase-3-project
+
+2. Install dependencies using Pipenv
+
 pipenv install
 pipenv shell
+
+
+3. Apply database migrations:
+
 alembic upgrade head
+4. Run the CLI
 python main.py
 
